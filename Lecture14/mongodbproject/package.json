@@ -1,0 +1,14 @@
+{
+  "name": "mongodbproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sagar Sehwag",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.12"
+  }
+}

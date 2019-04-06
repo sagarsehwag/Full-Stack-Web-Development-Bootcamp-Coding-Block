@@ -1,0 +1,17 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "Introduction To ExpressJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "Yo"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Sagar Sehwag",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

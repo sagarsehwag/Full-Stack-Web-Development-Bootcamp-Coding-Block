@@ -1,0 +1,22 @@
+body {
+    background-color: brown;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li>ul {
+    margin-left: 35px;
+}
+
+ul li>h1 {
+    top: 0px;
+    position: sticky;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "todo-rest-api",
+  "version": "1.0.0",
+  "description": "todo list rest api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sagar Sehwag",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

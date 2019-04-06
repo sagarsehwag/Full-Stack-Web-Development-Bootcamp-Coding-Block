@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <h1 class="text-center">Task List</h1>
+    <div class="container">
+        <form action="/action">
+            <div class="row">
+                <input type="text" class="form-control col mx-2" name="name">
+                <input type="submit" class="btn btn-primary col-2 mx-2" value="Add">
+            </div>
+        </form>
+        <div class="row">
+            <ul class="list-group col m-4">
+                {{#each tasks as |task|}
+                <li class="list-group-item">
+                    {{tasks.name}}
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
